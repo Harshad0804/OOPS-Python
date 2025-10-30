@@ -9,5 +9,5 @@ class Pizza:
     def __str__(self):
         return f"Pizza with {' and '.join(self.ingredients)}"
 
-pizza1 = Pizza.margherita()
-print(pizza1)
+p1 = Pizza.margherita()
+print(p1)
